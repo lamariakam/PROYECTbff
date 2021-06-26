@@ -50,7 +50,7 @@ html{
 
 
 section{
-    height: 660px;
+    height: 678px;
     display: flex;
     justify-content: space-evenly;
     padding: 0 40px;
@@ -59,25 +59,25 @@ section{
 /*
 section:nth-child(3){
     background-color: #4ABDAC;
-} */
+} 
 section:nth-child(5){
     background-color: tomato;
-}
+} */
 
    
 
 section h2{
     font-size: 60px;
     font-weight: 500;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 section p{
     font-weight: 300;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 section a{
     display: inline-block;
-    padding: 10px 0;
+    padding: 10px 0px;
     text-decoration: none;
     text-align: center;
     width: 100px;
@@ -99,6 +99,60 @@ footer h4{
     padding: 15px ;
     
 
+}
+
+/*CAJAS*/
+.main{
+    width: 100%;
+    /*max-width: 1200px; */
+    margin: auto;
+
+}
+.container-box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+.box{
+    width: 250px;
+    height: 250px;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid gray;
+    text-align: center;
+    border-radius: 25px;
+
+}
+.box img{
+    width: 60%;
+
+}
+.box h4{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.box p{
+    font-size: 12px;
+    color: grey;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+/* EFECTO HOVER CJAS*/
+.box:hover{
+    background:blue;
+
+}
+.box:hover img{
+    transform: translateY(-90px);
+}
+.box:hover h4{
+    transform: translateY(-90px);
+}
+.box:hover p{
+    transform: translateY(-90px);
 }
 
 
