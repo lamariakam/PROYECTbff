@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+/*HEADER*/
+>>>>>>> 03a1a1f56bad8b04ff5588132766bfc277f46309
 *{
     padding: 0;
     margin: 0;
@@ -16,7 +20,11 @@ html{
     color: #ffffff;
     grid-column-start: 1;
     grid-column-end: 4;
+<<<<<<< HEAD
     padding: 3vh;
+=======
+    padding: 2vh;
+>>>>>>> 03a1a1f56bad8b04ff5588132766bfc277f46309
 }
 
 .header p {
@@ -123,4 +131,14 @@ footer {
     z-index: 300;
     width: 100%;
     height: 5vh;
+<<<<<<< HEAD
 }
+=======
+
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4vh;
+}
+
+
+>>>>>>> 03a1a1f56bad8b04ff5588132766bfc277f46309
