@@ -38,15 +38,9 @@ header{
     text-decoration: none;
     display: inline-block;
     font-size: 23px;
-    
-
+    color: white;
+    padding: 5px;
 }
-
-
-
-
-
-
 html{
     scroll-behavior: smooth;
 }
