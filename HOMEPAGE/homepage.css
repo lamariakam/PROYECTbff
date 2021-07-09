@@ -4,15 +4,7 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-.tipo{
-    font-size: 21px;
-    padding: 30px;
-    
-}
-.tipo h1{
-    color: #1D9A78;
-    line-height: 35px;
-}
+
 /*HEADER*/
 .header{
     width: 100%;
@@ -28,18 +20,21 @@
 }
 
 .menu{
-    float: center;
-    padding: 30px 450px;
+    float: right;
+    padding: 30px ;
   
 }
 .menu a{
     text-decoration: none;
     display: inline-block;
-    font-size: 30px;
+    font-size: 20px;
     color: white;
     padding: 10px;
+    float: left;
+    
     
 }
+
 html{
     scroll-behavior: smooth;
 }
