@@ -4,42 +4,41 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+.tipo{
+    font-size: 20px;
+    padding: 30px;
+    
+}
+.tipo h1{
+    color: #1D9A78;
+    line-height: 35px;
+}
 /*HEADER*/
-header{
+.header{
     width: 100%;
-    height: 75px;
+    height: 90px;
     background: linear-gradient(to right, #1D9A78 40%, #36AFCE);
-    position: fixed;
+    position:relative;
     z-index: 10px;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+    line-height: 10px;
 }
 
 .container{
     width: 90%;
 }
 
-.logo{
-    float: left;
-    line-height: 10px;
-    font-size: 38;
-}
-.logo h1{
-    cursor: default;
-    padding: 25px 50px;
-    color: white;
-}
 .menu{
-    float: right;
-    padding: 30px 45px;
-
-    
+    float: center;
+    padding: 30px 450px;
+  
 }
 .menu a{
     text-decoration: none;
     display: inline-block;
-    font-size: 23px;
+    font-size: 30px;
     color: white;
-    padding: 5px;
+    padding: 10px;
+    
 }
 html{
     scroll-behavior: smooth;
@@ -85,14 +84,16 @@ section a{
 }
 .footer{
     width: 100%;
-    height: 75px;
-    background-color:white
+    height: 180px;
+    background: linear-gradient(to right, #1D9A78 40%, #36AFCE);
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+   
 
 }
 
 footer h4{
     padding: 15px ;
+    
     
 
 }
