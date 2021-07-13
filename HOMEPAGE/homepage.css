@@ -9,13 +9,13 @@
     font-weight: 30px;
     line-height: 80px;
     display: flex;
-    float: center;
-    justify-content: center;   
+    float: left;
+    justify-content: left;   
     padding: 0;
     margin: 0;
 }
 .logo a{
-    color:#1D9A78 ;
+    color:white ;
     text-decoration: none;
 
 }
