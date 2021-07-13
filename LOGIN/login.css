@@ -13,14 +13,14 @@ html{
 
 .header {
     background: linear-gradient(to right, #1D9A78 40%, #36AFCE);
-    color: purple;
+    color: #ffffff;
     grid-column-start: 1;
     grid-column-end: 4;
     padding: 3vh;
 }
 
 .header p {
-    color: purple;
+    color: #ffffff;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 4vh;
 }
