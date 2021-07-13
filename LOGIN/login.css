@@ -13,7 +13,7 @@ html{
 
 .header {
     background: linear-gradient(to right, #1D9A78 40%, #36AFCE);
-    color: #ffffff;
+    color: purple;
     grid-column-start: 1;
     grid-column-end: 4;
     padding: 3vh;
