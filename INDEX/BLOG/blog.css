@@ -4,7 +4,47 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
+/*HEADER*/
+.header{
+    position: relative;
+    width: 100%;
+    height: 90px;
+    overflow: hidden;
+    background: rgb(151, 229, 223);
+    z-index: 10px;
+    line-height: 5px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
 
+.container{
+    width: 90%;
+}
+.logo{
+    font-size: 48px;
+    font-weight: 30px;
+    line-height: 80px;
+    display:flex;
+    float: left;
+    justify-content: left;   
+    padding: 8px;
+    margin: 0;
+    letter-spacing: 9px;
+}
+.logo a{
+    color:white ;
+    text-decoration: none;
+
+}
+
+section{
+    height: 818px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+    align-items: center;
+    text-align: center;
+}
+/*FOOTER*/
 .footer{
     width: 100%;
     height: 100px;
