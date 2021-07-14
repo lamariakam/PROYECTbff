@@ -22,11 +22,11 @@
 }
 /*HEADER*/
 .header{
+    position:fixed;
     width: 100%;
     height: 90px;
     overflow: hidden;
-    background: linear-gradient(to right, #1D9A78 40%, #36AFCE);
-    position:relative;
+    background: rgb(151, 229, 223);
     z-index: 10px;
     line-height: 5px;
 }
