@@ -47,8 +47,8 @@ html{
 
 .login {
     background-color: #ffffff;
-    width: 85vh;
-    height: 60vh;
+    width: vh;
+    height: 50vh;
     margin-top: 5vh;
     padding: 7vh;
     display: inline-block;
@@ -61,23 +61,33 @@ html{
     height: 10vh;
     font-size: 5vh;
 }
+.login h3{
+    color: #1D9A78;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0px 120px;
+}
 
 .login input{
     position: relative;
-    width: 94%;
+    align-items: center;
+    justify-content: center;
+    width: 75%;
     margin-top: 4vh;
     padding: 2vh;
 }
 
 .login button{
     background-color: #00CE81;
-    width: 100%;
+    width: 85%;
     margin-top: 2vh;
     padding: 2vh;
     margin-top: 5vh;
     color: #ffffff;
     border: none;
     border-radius: 4px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .login button:hover{
@@ -87,7 +97,7 @@ html{
 .login a{
     display: block ;
     text-align: center;
-    margin-top: 10vh;
+    margin-top: 3vh;
 }
 
 .background{
