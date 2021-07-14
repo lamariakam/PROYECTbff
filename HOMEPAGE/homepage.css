@@ -48,8 +48,10 @@
     background:white;
 
 }
-.iniciarboton b{
+.iniciarboton a{
     color: grey;
+    text-decoration: none;
+
 }
 
 .menu{
@@ -101,7 +103,7 @@ section a{
     background: white;
     
 }
-
+/*HEADER*/
 .footer{
     width: 100%;
     height: 100px;
