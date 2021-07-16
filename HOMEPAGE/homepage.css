@@ -38,6 +38,7 @@
     letter-spacing:16px;
 
 }
+
 .iniciarboton {
     float: right;
     display: inline-block;
@@ -57,20 +58,21 @@
     color: grey;
     text-decoration: none;
     
+    
 
 }
 
 .menu{
     justify-content: center;
     text-align: center;
+    padding: 38px;
 
- 
-  
 }
 .menu a{
     font-size: 20px;
     text-decoration: none;
     color:black;
+    margin:25px;
 }
 
 html{
