@@ -10,57 +10,67 @@
 .header{
     position: relative;
     width: 100%;
-    height: 90px;
+    height: 85px;
     overflow: hidden;
     background: rgb(151, 229, 223);
     z-index: 10px;
     line-height: 5px;
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+
 }
 
 .container{
     width: 90%;
 }
 .logo{
-    font-size: 48px;
+    display:flex;
+    float: center;
+    justify-content: center;   
+    padding: 15px;
+    margin: 0;
+}
+.logo b{
     font-weight: 30px;
     line-height: 80px;
-    display:flex;
-    float: left;
-    justify-content: left;   
-    padding: 8px;
-    margin: 0;
-    letter-spacing: 9px;
-}
-.logo a{
+    font-size: 88px;
     color:white ;
     text-decoration: none;
     padding-left:35px;
+    letter-spacing:16px;
 
 }
 .iniciarboton {
+    float: right;
     display: inline-block;
-    padding: 13px 0px;
+    padding:10px ;
+    margin: 15px;
     text-decoration: none;
     text-align: center;
     width: 180px;
     border: 2px solid#FF3B3F;
-    border-radius: 70px;
+    border-radius: 10px;
     background:white;
+    height: 30px;
+    text-shadow: 0px 0px 1px;
 
 }
 .iniciarboton a{
     color: grey;
     text-decoration: none;
+    
 
 }
 
 .menu{
-    float: right;
-    padding: 30px ;
-    height: 50px;
-    text-shadow: 0px 0px 1px;
+    justify-content: center;
+    text-align: center;
+
+ 
   
+}
+.menu a{
+    font-size: 20px;
+    text-decoration: none;
+    color:black;
 }
 
 html{
@@ -89,6 +99,7 @@ section h2{
     text-align: center;
 }
 section p{
+    font-size: 17px;
     font-weight: 300;
     margin-bottom: 10px;
     padding-top: 10px;
