@@ -24,7 +24,7 @@ html{
 .registre{
     background-color: #1D9A78;
     color: #ffffff;
-    width: 60vh;
+    width: 55vh;
     height: 60vh;
     margin-top: 5vh;
     padding: 7vh;
@@ -47,8 +47,8 @@ html{
 
 .login {
     background-color: #ffffff;
-    width: vh;
-    height: 50vh;
+    width: 50vh;
+    height: 48vh;
     margin-top: 5vh;
     padding: 7vh;
     display: inline-block;
@@ -62,32 +62,37 @@ html{
     font-size: 5vh;
 }
 .login h3{
+    font-size: 2vh;
     color: #1D9A78;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 0px 120px;
+    margin: 0;
 }
 
 .login input{
-    position: relative;
+    font-size: 13px;
+    position:relative;
     align-items: center;
     justify-content: center;
-    width: 75%;
+    width: 60%;
     margin-top: 4vh;
     padding: 2vh;
+    left: 6vh;
+
 }
 
 .login button{
     background-color: #00CE81;
-    width: 85%;
-    margin-top: 2vh;
+    width: 55%;
+    margin-top: 3vh;
     padding: 2vh;
-    margin-top: 5vh;
     color: #ffffff;
     border: none;
     border-radius: 4px;
     text-align: center;
-    align-items: center;
-    justify-content: center;
+    position: relative;
+    left: 9vh;
+    
 }
 
 .login button:hover{
@@ -98,15 +103,10 @@ html{
     display: block ;
     text-align: center;
     margin-top: 3vh;
+    position: relative;
+    right: 2vh;
 }
 
-.background{
-    background-color: #195869;
-    position: absolute;
-    width: 100%;
-    height: 45vh;
-    z-index: 100;
-    top: 60%;
-}
+
 
 
