@@ -4,8 +4,6 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-
-
 /*HEADER*/
 .header{
     position: relative;
@@ -23,7 +21,7 @@
 }
 .logo{
     display:flex;
-    float: center;
+    float: left;
     justify-content: center;   
     padding: 15px;
     margin: 0;
@@ -31,7 +29,7 @@
 .logo b{
     font-weight: 30px;
     line-height: 80px;
-    font-size: 88px;
+    font-size: 48px;
     color:white ;
     text-decoration: none;
     padding-left:35px;
@@ -39,40 +37,22 @@
 
 }
 
-.iniciarboton {
+.iniciar {
     float: right;
     display: inline-block;
-    padding:10px ;
-    margin: 15px;
+    padding:23px ;
+    margin: 25px;
     text-decoration: none;
-    text-align: center;
+    text-align: right;
     width: 180px;
-    border: 2px solid#FF3B3F;
-    border-radius: 10px;
-    background:white;
     height: 30px;
     text-shadow: 0px 0px 1px;
+    
 
 }
-.iniciarboton a{
+.iniciar a{
     color: grey;
     text-decoration: none;
-    
-    
-
-}
-
-.menu{
-    justify-content: center;
-    text-align: center;
-    padding: 38px;
-
-}
-.menu a{
-    font-size: 20px;
-    text-decoration: none;
-    color:black;
-    margin:25px;
 }
 
 html{
@@ -101,7 +81,7 @@ section h2{
     text-align: center;
 }
 section p{
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 300;
     margin-bottom: 10px;
     padding-top: 10px;
@@ -208,6 +188,3 @@ section a{
 
 
 /* RESPONSIVE*/
-@media  screen (max-width:){
-    
-}
