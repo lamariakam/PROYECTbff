@@ -65,7 +65,6 @@ body{
     background: #333;
 }
 
-
 .content{
     display: flex;
     align-content: center;
@@ -162,7 +161,3 @@ body{
     position: relative;
     right: 0.2em;
 }
-
-
-
-
