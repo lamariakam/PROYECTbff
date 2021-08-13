@@ -8,8 +8,56 @@
 
 
 html{
-    background-color: #262626;
+    background:#262626;
     position: relative;
+}
+body{ 
+    padding: 90px 20px 0;
+}
+.header{
+    background:-webkit-linear-gradient(left,#05db89,#00aeff);
+    height: 4em;
+    position: fixed;
+    width:100%;
+    top: 0;
+    left: 0;
+}
+#barraNavegacion{
+    display:flex;
+    justify-content: space-between;
+}
+
+#barraNavegacion ul{
+    display:flex;
+    margin-right: 40px;
+}
+
+#barraNavegacion .logo{
+    font-size:30px;
+    font-family: arial black;
+    color:black;
+    margin-left: 40px;
+    line-height:55px;
+}
+#barraNavegacion .loginItem {
+    font-size: 25px;
+    font-family: arial black;
+    color: black;
+    margin: 0 0.9em;
+    line-height: 55px;
+}
+#barraNavegacion .loginItem::after {
+    content: "";
+    display: block;
+    margin: 0 0.4em;
+    height: 3px;
+    width: 0px;
+    transition: all .8s;
+}
+#barraNavegacion .loginItem:hover::after{
+    margin:0 0.4em;
+    width: 100%;
+    background: #333;
 }
 
 
