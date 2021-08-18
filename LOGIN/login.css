@@ -7,7 +7,7 @@
 }
 
 html{
-    background:#262626;
+    background:white;
     position: relative;
 }
 
@@ -17,11 +17,12 @@ body{
 
 .header{
     background:-webkit-linear-gradient(left,#05db89,#00aeff);
-    height: 4em;
-    position: fixed;
+    height: 90px;
+    position: absolute;
     width:100%;
     top: 0;
     left: 0;
+    overflow: hidden;
 }
 
 #barraNavegacion{
@@ -35,11 +36,23 @@ body{
 }
 
 #barraNavegacion .logo{
-    font-size:30px;
-    font-family: arial black;
-    color:black;
-    margin-left: 40px;
-    line-height:55px;
+    font-size: 48px;
+    font-weight: 30px;
+    line-height: 80px;
+    display:flex;
+    float: left;
+    justify-content: left;   
+    padding: 8px;
+    margin: 0;
+    letter-spacing: 9px;
+
+}
+#barraNavegacion .logo a{
+    color:white ;
+    text-decoration: none;
+    padding-left:35px;
+
+
 }
 
 #barraNavegacion .loginItem {
@@ -82,6 +95,7 @@ body{
     padding: 7vh;
     display: inline-block;
     z-index: 200;
+
 }
 
 .registre h2{
@@ -106,6 +120,7 @@ body{
     padding: 7vh;
     display: inline-block;
     z-index: 200;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
 }
 
 .login h2 {
@@ -115,6 +130,12 @@ body{
     text-align: center;
     height: 2em;
     font-size: 5vh;
+    padding: 1px;
+
+}
+.login h4 {
+    margin-top: -4px;
+
 }
 
 .login input{
@@ -122,24 +143,25 @@ body{
     position:relative;
     align-items: center;
     justify-content: center;
-    border-radius: 20px;
-    width: 60%;
-    margin-top: 1em;
-    padding: 0.9em;
-    left: 6vh;
+    border-radius: 17px;
+    width: 55%;
+    height: 15px;
+    margin-top: 1.8em;
+    padding: 1em;
+    left: 7.3vh;
 }
 
 .login button{
     background:-webkit-linear-gradient(left,#05db89,#00aeff);
-    width: 65%;
+    width: 45%;
     margin-top: 3vh;
     padding: 2vh;
     color: #ffffff;
     border: none;
-    border-radius: 20px;
+    border-radius: 15px;
     text-align: center;
     position: relative;
-    left: 3.5em;
+    left: 8.4em;
 }
 
 .login button:hover{
