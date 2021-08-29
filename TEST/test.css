@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*HEADER*/
+.header{
+    background:-webkit-linear-gradient(left,#05db89,#00aeff);
+    position: relative;
+    width: 100%;
+    height: 85px;
+    overflow: hidden;
+    z-index: 10px;
+    line-height: 5px;
+
+}
+
+.container{
+    width: 90%;
+}
+.logo{
+    display:flex;
+    float: left;
+    justify-content: center;   
+    padding: 15px;
+    margin: 0;
+}
+.logo b{
+    font-weight: 30px;
+    line-height: 80px;
+    font-size: 48px;
+    color:white ;
+    text-decoration: none;
+    padding-left:35px;
+    letter-spacing:16px;
+
+}
