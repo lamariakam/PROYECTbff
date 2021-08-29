@@ -7,12 +7,12 @@ use login;
 #create tables
 create table usuarios (
 nombre varchar(15),
-contraseña varchar (10)
+contrasena  varchar (10) 
 
 );
 
 create table registro_user (
 nombre varchar(15),
-contraseña varchar (10)
+contrasena varchar (10)
 
 );
