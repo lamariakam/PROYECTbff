@@ -6,12 +6,115 @@
     font-family: Bahnschrift SemiLight,Avenir Next LT Pro Light,EZ;
 }
 
-.contGeneral{
-    width:100%;
-    height:100%;
-    background:-webkit-linear-gradient(left,#05db89,#00aeff);
+header{
+    background:-webkit-linear-gradient(left,#46c493,#1fb8ff);
+    border:1px solid;
+    height:80px;
 }
 .logo{
-    width:8%;
-    height:auto
+    width:30%;
+    font-size:25px;
+    text-decoration: none;
+    padding: 25px;
+    padding-left:30px;
+    float:left;
+    height:60px;
+    box-sizing: border-box;
+}
+#schollar{
+    color:#fff;
+    font-weight:bold;
+    padding-right: 15px;
+    display:inline;
+}
+#REVIEW{
+    color:#fff;
+    font-weight:normal;
+    display:inline;
+    letter-spacing:-1px;
+}
+.menúSup{
+    width: 70%;
+    padding-top:25px;
+    padding-left:20px ;
+    padding-right:20px ;
+    font-size: 25px;
+    float:left;
+    text-align:right;
+    height:60px;
+    box-sizing: border-box
+}
+.menúSup ul li{
+    display: inline;
+    padding: 20px;
+}
+.menúSup ul li a{
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.menúSup ul li a:hover{
+    border-bottom: #fabd23 solid 3px;
+}
+/*--------De aquí hacía arriba es el header con el menú-------*/
+
+.clearfix{
+    clear: both;
+}
+
+aside{
+    background:rgb(3, 71, 73);
+    float:left;
+    margin:20px;
+    width: 20%;
+    text-decoration: none;
+    text-align:center;
+    min-height: 500px;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+.trianguloDec{
+    margin:10px;
+    width: 0;
+     height: 0;
+     border-right: 40px solid transparent;
+     border-top: 40px solid #f0e04e;
+     border-left: 40px solid #f0e04e;
+     border-bottom: 40px solid transparent;
+}
+aside ul li a{
+    padding:20px;
+    display:block;
+    color: #ffffff;
+    font-size: 18px;
+    border-bottom:#ffffff solid 2px;
+}
+aside #matAct{
+    padding:10px;
+}
+aside #TemEsp{
+    padding-top:20px;
+    padding:10px
+}
+
+/*--------De aquí hacía arriba es el tablero lateral--------*/
+.Contenido{
+    float:right;
+    margin: 20px;
+    width:73%;
+    min-height:500px;
+    color : #ffffff;
+}
+.Contenido p{
+    width:95%;
+    padding:25px;
+    font-size:25px;
+    font-family: Bahnschrift -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing:1.5px
+}
+body{
+    background:-webkit-linear-gradient(left,#05db89,#00aeff);
+    width:100%;
+    height:100%;
+    
 }
