@@ -27,7 +27,7 @@ html{
     display:flex;
     float: left;
     justify-content: center;   
-    padding: 15px;
+    padding: 8px;
     margin: 0;
 }
 .logo b{
@@ -35,7 +35,7 @@ html{
     line-height: 80px;
     font-size: 48px;
     color:white ;
-    padding-left:90px;
+    padding-left:70px;
     letter-spacing:16px;
 
 }
@@ -59,14 +59,16 @@ html{
     border-bottom: 40px solid transparent;
 }
 .trianguloIzq{
-    top: auto;
+    margin-top: auto;
     width: 0;
     height: 0;
-    border-right: 55px solid transparent;
+    border-right: 63px solid transparent;
     border-top: 1px solid #ffff40;
-    border-left: 50px solid #ffff40;
+    border-left: 52px solid #ffff40;
     border-bottom: 50px solid transparent;
-    transform: rotate(45deg);
+    transform: rotate(46deg);
+    left: -0.14rem;
+    position: relative;
 }
 
 
