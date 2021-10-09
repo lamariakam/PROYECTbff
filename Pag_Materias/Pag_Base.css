@@ -188,10 +188,18 @@ section p{
 }
 .img{
     width: 90%;
-    height: 100px;
+    height: 150px;
     align-items: center;
     position: relative;
     
+    
 
+
+}
+
+.menúLat img{
+    position: relative;
+    width: 35%;
+    height: 13%;
 
 }
