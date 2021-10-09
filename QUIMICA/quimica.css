@@ -42,12 +42,6 @@ body{
     letter-spacing:16px;
 
 }
-.menúLat li:hover {
-    background-color: #f0e04e;
-}
-
-
-
 .menúSup{
     width: 70%;
     padding-top:25px;
@@ -75,8 +69,20 @@ body{
 .menúSup ul li a:hover{
     border-bottom: #fabd23 solid 3px;
 }
-/*--------De aquí hacía arriba es el header con el menú-------*/
 
+/*MENU LATERAL */
+.menúLat li:hover {
+    background-color: #f0e04e;
+}
+.trianguloDec{
+    margin:10px;
+    width: 0;
+    height: 0;
+    border-right: 40px solid transparent;
+    border-top: 40px solid #f0e04e;
+    border-left: 40px solid #f0e04e;
+    border-bottom: 40px solid transparent;
+}
 .clearfix{
     clear: both;
 }
@@ -92,15 +98,7 @@ aside{
     color: #ffffff;
     box-sizing: border-box;
 }
-.trianguloDec{
-    margin:10px;
-    width: 0;
-     height: 0;
-     border-right: 40px solid transparent;
-     border-top: 40px solid #f0e04e;
-     border-left: 40px solid #f0e04e;
-     border-bottom: 40px solid transparent;
-}
+
 aside ul li a{
     padding:20px;
     display:block;
@@ -115,8 +113,41 @@ aside #TemEsp{
     padding-top:20px;
     padding:10px
 }
+.menúLat img{
+    position: relative;
+    width: 30%;
+    height: 10%;
 
-/*--------De aquí hacía arriba es el tablero lateral--------*/
+}
+/*TITULO- IMAGEN DEL TEMA */
+.section {
+    height: 700px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+    position: relative;
+
+}
+
+
+.img-title p{
+    font-size: 45px;
+    margin-top: 1.5rem;
+    position: relative;
+    color:#FF3B3F ;
+    
+}
+.img-title img{
+    width: 77%;
+    height: 400px;
+    align-items: center;
+    position: relative;
+    right: -1.5rem;
+    top: 1.2rem;
+}
+/* CONTENEDOR DE TEXTO  */
 .Contenido{
     float:right;
     margin: 17px;
@@ -131,13 +162,6 @@ aside #TemEsp{
     font-family: Bahnschrift -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     letter-spacing:1.5px
 }
-
-
-
-
-
-
-
 
 /*FOOTER*/
 .footer{
@@ -182,47 +206,5 @@ aside #TemEsp{
 
 
 
-.section {
-    height: 700px;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 10px;
-    align-items: center;
-    text-align: center;
-    position: relative;
-    
-
-}
 
 
-.img-title p{
-    font-size: 43px;
-    margin-top: 1.5rem;
-    position: relative;
-
-    
-    
-    
-   
-
-}
-.img-title img{
-    width: 77%;
-    height: 400px;
-    align-items: center;
-    position: relative;
-    right: -1.5rem;
-    top: 1.2rem;
-    
-    
-    
-
-
-}
-
-.menúLat img{
-    position: relative;
-    width: 30%;
-    height: 10%;
-
-}
