@@ -54,8 +54,8 @@ html{
     width: 0;
     height: 0;
     border-right: 40px solid transparent;
-    border-top: 40px solid #f0e04e;
-    border-left: 40px solid #f0e04e;
+    border-top: 40px solid #ffff56;
+    border-left: 40px solid #ffff56;
     border-bottom: 40px solid transparent;
 }
 .trianguloIzq{
@@ -63,9 +63,9 @@ html{
     width: 0;
     height: 0;
     border-right: 63px solid transparent;
-    border-top: 1px solid #ffff40;
-    border-left: 52px solid #ffff40;
-    border-bottom: 50px solid transparent;
+    border-top: 1.5px solid #ffc340;
+    border-left: 52px solid #ffc340;
+    border-bottom: 51px solid transparent;
     transform: rotate(46deg);
     left: -0.14rem;
     position: relative;
