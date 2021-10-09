@@ -27,6 +27,7 @@ body{
     justify-content: center;   
     padding: 15px;
     margin: 0;
+    
 }
 .logo b{
     font-weight: 30px;
@@ -38,7 +39,9 @@ body{
     letter-spacing:16px;
 
 }
-
+.menúLat li:hover {
+    background-color: #f0e04e;
+}
 
 
 
@@ -187,6 +190,8 @@ aside #TemEsp{
     
 
 }
+
+
 .img-title p{
     font-size: 43px;
     margin-top: 2.5rem;
@@ -199,12 +204,12 @@ aside #TemEsp{
 
 }
 .img-title img{
-    width: 75%;
-    height: 370px;
+    width: 77%;
+    height: 400px;
     align-items: center;
     position: relative;
     right: -1.5rem;
-    top: 1.3rem;
+    top: 1.2rem;
     
     
     
