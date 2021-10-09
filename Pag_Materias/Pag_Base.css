@@ -113,7 +113,7 @@ aside #TemEsp{
 /*--------De aquí hacía arriba es el tablero lateral--------*/
 .Contenido{
     float:right;
-    margin: 20px;
+    margin: 17px;
     width:73%;
     min-height:500px;
     color : #ffffff;
@@ -129,16 +129,25 @@ aside #TemEsp{
 
 
 
+
+
+
+
 /*FOOTER*/
 .footer{
-    width: 100%;
+    width: 105.2%;
     height: 100px;
     background:-webkit-linear-gradient(left,#6febbc,#00aeff);
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
-    padding-top: 40px;
+    padding-top: 6rem;
     color: rgb(255, 233, 233);
     text-align: center;
     justify-content: center;
+    margin-top:70rem ;
+    
+}
+.footer h4 {
+    margin-top: -4rem;
 }
 
 .bottom{
@@ -153,6 +162,8 @@ aside #TemEsp{
     font-size: 14px;
     word-spacing: 2px;
     text-transform: capitalize;
+    
+
 
 }
 .bottom span{
@@ -165,32 +176,36 @@ aside #TemEsp{
 
 
 
-.section{
+.section {
     height: 700px;
     display: flex;
     justify-content: space-evenly;
     padding: 10px;
     align-items: center;
     text-align: center;
-    
     position: relative;
     
 
 }
-section p{
-    font-size: 45px;
-    margin-top: 4rem;
+.img-title p{
+    font-size: 43px;
+    margin-top: 2.5rem;
     position: relative;
+
+    
     
     
    
 
 }
-.img{
-    width: 90%;
-    height: 150px;
+.img-title img{
+    width: 75%;
+    height: 370px;
     align-items: center;
     position: relative;
+    right: -1.5rem;
+    top: 1.3rem;
+    
     
     
 
@@ -199,7 +214,7 @@ section p{
 
 .menúLat img{
     position: relative;
-    width: 35%;
-    height: 13%;
+    width: 30%;
+    height: 10%;
 
 }
