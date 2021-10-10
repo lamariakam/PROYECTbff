@@ -165,12 +165,13 @@ aside #TemEsp{
 
 }
 
-
 .img-title p{
-    font-size: 45px;
-    margin-top: 1.5rem;
+    font-size: 50px;
+    margin-top: -1rem;
     position: relative;
     color:#FF3B3F ;
+    align-items: center;
+    left: 23rem;
     
 }
 .img-title img{
