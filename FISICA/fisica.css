@@ -22,6 +22,7 @@ body{
     overflow: hidden;
     z-index: 10px;
     line-height: 5px;
+    
 }
 .logo{
     display:flex;

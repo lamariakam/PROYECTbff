@@ -77,14 +77,14 @@
     background: linear-gradient(to right, #002060, #7030A0);
 }
 
-.ing {
+.fis {
     grid-column: 1 / 2;
     background: linear-gradient(to right, #8A0000, #CC0066);
 }
 
-.sci {
+.quim {
     grid-column: 2 / 4;
-    background: linear-gradient(to right, #1D9A78, #8BC145);
+    background: linear-gradient(to right, #25ab87, #8BC145);
 }
 
 .soc {
