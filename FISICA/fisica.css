@@ -9,7 +9,7 @@ html{
 }
 body{
     background:-webkit-linear-gradient(left,#6febbc,#00aeff);
-    width:95%;
+    width:auto;
     height:100%;
     
 }
@@ -18,21 +18,19 @@ body{
     background:-webkit-linear-gradient(left,#6febbc,#00aeff);
     position: relative;
     width: 100%;
-    height: 93px;
+    height: 85px;
     overflow: hidden;
     z-index: 10px;
     line-height: 5px;
-    
-
 }
-
-
 .logo{
     display:flex;
     float: left;
     justify-content: center;   
     padding: 7px;
     margin: 0;
+    list-style: none;
+    position: relative;
 }
 .logo b{
     font-weight: 30px;
@@ -43,29 +41,55 @@ body{
     letter-spacing:16px;
 
 }
-.logo a{
-    font-size: 22px;
-    color: rgb(241, 255, 85);
+
+.logo p{
     position: relative;
+    font-size: 22px;
+    margin-top: 3.35rem;
+    right: 8.8rem;
+    padding: 3.9px;
+    color: rgb(241, 255, 85); 
+
+}
+.trianguloDec{
     
+    margin-top:auto;
+    width: 0;
+    height: 0;
+    border-right: 40px solid transparent;
+    border-top: 40px solid #ffff56;
+    border-left: 40px solid #ffff56;
+    border-bottom: 40px solid transparent;
+}
+.trianguloIzq{
+    margin-top: auto;
+    width: 0;
+    height: 0;
+    border-right: 63px solid transparent;
+    border-top: 1.5px solid #ffc340;
+    border-left: 52px solid #ffc340;
+    border-bottom: 51px solid transparent;
+    transform: rotate(46deg);
+    left: -0.14rem;
+    position: relative;
 }
 
 .menúSup{
-    width: 70%;
-    padding-top:25px;
-    padding-left:20px ;
-    padding-right:20px ;
+    width: 80%;
+    top: 1rem;
+    margin: 1rem;
     font-size: 25px;
-    float:left;
-    text-align:right;
+    text-align:left;
     height:8%;
     box-sizing: border-box;
+    position:relative;
+    left: 36rem;   
 }
+
 .menúSup ul li{
     display: inline;
     padding: 20px;
-    
-    
+   
 }
 .menúSup ul li a{
     color: #ffffff;
@@ -73,10 +97,12 @@ body{
     letter-spacing: 1px;
     text-decoration: none;
     
+    
 }
 .menúSup ul li a:hover{
     border-bottom: #fabd23 solid 3px;
 }
+
 
 /*MENU LATERAL */
 .menúLat li:hover {
@@ -139,16 +165,17 @@ aside #TemEsp{
 
 }
 
-
 .img-title p{
-    font-size: 45px;
-    margin-top: 1.5rem;
+    font-size: 50px;
+    margin-top: -1rem;
     position: relative;
     color:#FF3B3F ;
+    align-items: center;
+    left: 20rem;
     
 }
 .img-title img{
-    width: 77%;
+    width: 70%;
     height: 400px;
     align-items: center;
     position: relative;
