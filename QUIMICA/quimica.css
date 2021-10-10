@@ -45,7 +45,7 @@ body{
 .logo p{
     position: relative;
     font-size: 22px;
-    margin-top: 3.3rem;
+    margin-top: 3.35rem;
     right: 8.8rem;
     padding: 3.9px;
     color: rgb(241, 255, 85); 
@@ -75,26 +75,28 @@ body{
 }
 
 .menúSup{
-    width: auto;
+    width: 80%;
     top: 1rem;
-    margin: auto;
-    padding-left: 10rem ;
+    margin: 1rem;
     font-size: 25px;
-    float:right;
-    text-align:right;
+    text-align:left;
     height:8%;
     box-sizing: border-box;
+    position:relative;
+    left: 36rem;   
 }
 
 .menúSup ul li{
     display: inline;
-    padding: 20px;   
+    padding: 20px;
+   
 }
 .menúSup ul li a{
     color: #ffffff;
     font-weight: bold;
     letter-spacing: 1px;
     text-decoration: none;
+    
     
 }
 .menúSup ul li a:hover{
@@ -172,7 +174,7 @@ aside #TemEsp{
     
 }
 .img-title img{
-    width: 77%;
+    width: 70%;
     height: 400px;
     align-items: center;
     position: relative;
