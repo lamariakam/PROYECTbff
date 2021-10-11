@@ -15,7 +15,7 @@ html{
     background:-webkit-linear-gradient(left,#6febbc,#00aeff);
     position: relative;
     width: 100%;
-    height: 85px;
+    height: 90px;
     overflow: hidden;
     z-index: 10px;
     line-height: 5px;
@@ -54,16 +54,16 @@ html{
     margin-top:auto;
     width: 0;
     height: 0;
-    border-right: 40px solid transparent;
-    border-top: 40px solid #ffff56;
-    border-left: 40px solid #ffff56;
-    border-bottom: 40px solid transparent;
+    border-right: 43px solid transparent;
+    border-top: 43px solid #ffff56;
+    border-left: 43px solid #ffff56;
+    border-bottom: 45px solid transparent;
 }
 .trianguloIzq{
     margin-top: auto;
     width: 0;
     height: 0;
-    border-right: 63px solid transparent;
+    border-right: 66px solid transparent;
     border-top: 1.5px solid #ffc340;
     border-left: 52px solid #ffc340;
     border-bottom: 51px solid transparent;
