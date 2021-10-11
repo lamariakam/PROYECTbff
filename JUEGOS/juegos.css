@@ -15,7 +15,7 @@ html{
     background:-webkit-linear-gradient(left,#6febbc,#00aeff);
     position: relative;
     width: 100%;
-    height: 83px;
+    height: 90px;
     overflow: hidden;
     z-index: 10px;
     line-height: 5px;
@@ -53,16 +53,16 @@ html{
     margin-top:auto;
     width: 0;
     height: 0;
-    border-right: 40px solid transparent;
-    border-top: 40px solid #ffff56;
-    border-left: 40px solid #ffff56;
-    border-bottom: 40px solid transparent;
+    border-right: 43px solid transparent;
+    border-top: 43px solid #ffff56;
+    border-left: 43px solid #ffff56;
+    border-bottom: 45px solid transparent;
 }
 .trianguloIzq{
     margin-top: auto;
     width: 0;
     height: 0;
-    border-right: 63px solid transparent;
+    border-right: 66px solid transparent;
     border-top: 1.5px solid #ffc340;
     border-left: 52px solid #ffc340;
     border-bottom: 51px solid transparent;
@@ -70,6 +70,93 @@ html{
     left: -0.14rem;
     position: relative;
 }
+section{
+    height: 632px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+    align-items: center;
+    text-align: center;
+
+}
+/*CAJAS*/
+.main{
+    width: 100%;
+    /*max-width: 1200px; */
+    
+   
+}
+.container-box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 60px;
+    margin: 15px;
 
 
+
+}
+.box{
+    width: 250px;
+    height: 250px;
+    margin: 25px;
+    padding: 10px;
+    border: 2px solid gray;
+    text-align: center;
+    border-radius: 25px;
+
+}
+.box img{
+    width: 50%;
+
+}
+.box h4{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.box p{
+    font-size: 12px;
+    color: grey;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+/*FOOTER*/
+.footer{
+    width: 100%;
+    height: 100px;
+    background:-webkit-linear-gradient(left,#6febbc,#00aeff);
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
+    padding-top: 6rem;
+    color: rgb(255, 233, 233);
+    text-align: center;
+    justify-content: center;
+}
+.footer h4{
+    margin-top: -5rem;
+
+}
+
+.bottom{
+    background:-webkit-linear-gradient(left,#6febbc,#00aeff);
+    width: 100%;
+    padding: 12px 0;
+    text-align: center;
+
+}
+.bottom p{
+    color: rgb(235, 232, 232);
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+
+}
+.bottom span{
+    text-transform: uppercase;
+    opacity: .5;
+    font-weight: 200;
+
+}
 
