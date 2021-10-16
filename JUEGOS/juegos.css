@@ -73,7 +73,7 @@ html{
 
 
 section{
-    height: 632px;
+    height: 620px;
     display: flex;
     justify-content: space-evenly;
     padding: 0px;
@@ -83,7 +83,7 @@ section{
 }
 section h2{
     font-size: 65px;
-    font-weight: 300;
+    font-weight: 295;
     text-align: center;
 }
 section p{
@@ -104,16 +104,13 @@ section p{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 60px;
+    padding: 50px;
     margin: 10px;
-
-
-
 }
 .box{
     width: 265px;
     height: 265px;
-    margin: 23px;
+    margin: 25px;
     padding: 10px;
     border: 2px solid gray;
     text-align: center;
