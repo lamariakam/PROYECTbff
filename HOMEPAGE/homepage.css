@@ -19,34 +19,6 @@ html{
     overflow: hidden;
     z-index: 10px;
     line-height: 5px;
-    
-
-}
-
-
-.logo{
-    display:flex;
-    float: left;
-    justify-content: center;   
-    padding: 7px;
-    margin: 0;
-}
-.logo b{
-    font-weight: 30px;
-    line-height: 80px;
-    font-size: 48px;
-    color:white ;
-    padding-left:70px;
-    letter-spacing:4px;
-
-}
-.logo p{
-    position: relative;
-    font-size: 22px;
-    margin-top: 4rem;
-    right: 6.5rem;
-    padding: 3.9px;
-    color: rgb(241, 255, 85);
 }
 
 .trianguloDec{
@@ -74,7 +46,7 @@ html{
 
 
 section{
-    height: 818px;
+    height: 820px;
     display: flex;
     justify-content: space-evenly;
     padding: 0px;
@@ -86,38 +58,58 @@ section:nth-child(2){
     background:-webkit-linear-gradient(left,#6febbc,#00aeff);
     
 } 
-   
-section:nth-child(4){
-    background-image:url(/RECURSOS/bground.jpeg) ;
-    background-repeat: no-repeat;
-    width: 100%;
-    position: relative;
-    background-size: cover;
-
-    
-} 
-section h2{
+section v{
     font-size: 70px;
     font-weight: 300;
     text-align: center;
+    top: -18rem;
+    position: relative;
+    left: 28rem;
 }
 section p{
     font-size: 18px;
     font-weight: 300;
     margin-bottom: 10px;
-    padding-top: 10px;
+    position: relative;
+    top: -3rem;
 }
 section a{
     display: inline-block;
     padding: 8px 0px;
     text-decoration: none;
     text-align: center;
-    width: 100px;
-    border: 2px solid#FF3B3F;
+    width: 170px;
+    height: 40px;
+    border: 2px solid#ffc340;
     border-radius: 70px;
-    background: white;
+    background: #ffff56;
     
 }
+section b{
+    font-weight: 30px;
+    line-height: 90px;
+    font-size: 95px;
+    color:white ;
+    padding-left:70px;
+    letter-spacing:4px;
+    position: relative;
+    top: -10rem;
+    right: 13rem;
+
+}
+section z{
+    position: relative;
+    font-size: 65px;
+    padding: 3.9px;
+    color: rgb(241, 255, 85);
+    top: -10rem;
+    right: 12rem;
+
+}
+img{
+    width: 100px;
+}
+
 /*FOOTER*/
 .footer{
     width: 100%;
@@ -155,61 +147,5 @@ section a{
 
 }
 
-/*CAJAS*/
-.main{
-    width: 100%;
-    /*max-width: 1200px; */
-    margin: auto;
-}
-.container-box{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 
 
-
-}
-.box{
-    width: 250px;
-    height: 290px;
-    margin: 25px;
-    padding: 10px;
-    border: 2px solid gray;
-    text-align: center;
-    border-radius: 25px;
-
-}
-.box img{
-    width: 60%;
-
-}
-.box h4{
-    font-size: 18px;
-    margin-top: 10px;
-}
-.box p{
-    font-size: 12px;
-    color: grey;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-}
-/* EFECTO HOVER CJAS*/
-.box:hover{
-    background:blue;
-
-}
-.box:hover img{
-    transform: translateY(-80px);
-}
-.box:hover h4{
-    transform: translateY(-90px);
-}
-.box:hover p{
-    transform: translateY(-90px);
-}
-
-
-
-
-/* RESPONSIVE*/
