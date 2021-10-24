@@ -20,7 +20,7 @@
 /* HEADER */
 
 .header {
-    background: linear-gradient(to right,#00BEA5, #28ABE3);
+    background:-webkit-linear-gradient(left,#6febbc,#00aeff);
     grid-column-start: 1;
     grid-column-end: 4;
     padding: 0;
