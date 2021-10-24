@@ -44,11 +44,9 @@ html{
     position: relative;
 }
 
-
 section{
     height: 716px;
     display: flex;
-    justify-content: space-evenly;
     padding: 0px;
     align-items: center;
     text-align: center;
@@ -60,12 +58,12 @@ section:nth-child(2){
 } 
 
 section p{
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 300;
     margin-bottom: 10px;
     position: relative;
     top: 1.5rem;
-    right: 23.2rem;
+    right: 8.2rem;
 }
 section a{
     display: inline-block;
@@ -77,17 +75,30 @@ section a{
     border: 2px solid#ffc340;
     border-radius: 70px;
     background: #ffff56;
-    right: 23rem;
+    right: 8rem;
     position: relative; 
     top: 2.5rem;   
 }
-section e{
-    font-size: 22px;
+section h3{
+    font-size: 20px;
+    text-align:right;
+    top: -2.5rem;
     position: relative;
-    top: -3rem;
-    right: 4.5rem;
+    left: -19.5rem;
+    text-decoration: none;
   
 }
+
+section h2{
+    font-size: 20px;
+    text-align:right;
+    top: -2.5rem;
+    position: relative;
+    left: -13.5rem;
+    text-decoration: none;
+
+}
+
 section b{
     font-weight: 30px;
     line-height: 90px;
@@ -111,11 +122,7 @@ section z{
 }
 
 
-.imagenes{
-    position: relative;
-    left: 4rem;
-    top: 14rem;
-}
+
 
 /*FOOTER*/
 .footer{
