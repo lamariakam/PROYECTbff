@@ -23,6 +23,7 @@ body{
     z-index: 10px;
     line-height: 5px;
     
+    
 }
 .logo{
     display:flex;
@@ -74,6 +75,7 @@ body{
     left: -0.14rem;
     position: relative;
 }
+
 
 .menúSup{
     width: 80%;
