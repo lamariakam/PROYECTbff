@@ -202,7 +202,7 @@
 
 .footer{
     grid-column: span 3;
-    height: 100px;
+    height: 15px;
     background:-webkit-linear-gradient(left,#6febbc,#00aeff);
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.4);
     padding-top: 6rem;
@@ -210,15 +210,14 @@
     text-align: center;
     justify-content: center;
 }
-.footer h4{
-    margin-top: 1vh;
-
+.footer h4 {
+    margin-top: -4rem;
 }
 
 .bottom{
     background:-webkit-linear-gradient(left,#6febbc,#00aeff);
     width: 100%;
-    padding: 0;
+    padding: 12px 0;
     text-align: center;
 
 }
@@ -227,6 +226,8 @@
     font-size: 14px;
     word-spacing: 2px;
     text-transform: capitalize;
+    
+
 
 }
 .bottom span{
