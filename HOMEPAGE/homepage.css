@@ -120,7 +120,12 @@ section z{
     left: -21rem;
 
 }
-
+.imagen{
+    width: 30px;
+    justify-content: right;
+    position: relative;
+    top: -4rem;
+}
 
 
 
