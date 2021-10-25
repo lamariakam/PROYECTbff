@@ -25,12 +25,36 @@
     grid-column-end: 4;
     padding: 0;
     display: flex;
+    
+    
 }
 
 .logo{
-    display: inline;
-    margin-top: auto;
-    margin-bottom: auto;
+    display:flex;
+    float: left;
+    justify-content: center;   
+    padding: 7px;
+    margin: 0;
+    list-style: none;
+    position: relative;
+}
+.logo b{
+    font-weight: 30px;
+    line-height: 80px;
+    font-size: 48px;
+    color:white ;
+    padding-left:70px;
+
+}
+
+.logo p{
+    position: relative;
+    font-size: 22px;
+    margin-top: 3.35rem;
+    right: 5.5rem;
+    padding: 3.9px;
+    color: rgb(241, 255, 85); 
+
 }
 
 .triangleA{
